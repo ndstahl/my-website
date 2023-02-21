@@ -1,0 +1,48 @@
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+
+  a {
+    color: #FFC300;
+  }
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #003566;
+  }
+
+  .navbar-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFC300;
+  }
+
+  .navbar-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFC300;
+    width: 10em;
+    height: 1.2em;
+    cursor: pointer;
+  }
+
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFC300;
+    background-color: #003566;
+    width: 6em;
+    height: 2em;
+    cursor: pointer;
+    border: none;
+  }
+
+
