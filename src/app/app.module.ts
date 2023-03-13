@@ -10,6 +10,10 @@ import { AboutmeComponent } from './components/aboutme/aboutme.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { ContactmeComponent } from './components/contactme/contactme.component';
+import { FormsModule } from '@angular/forms';
+
+
+
 
 @NgModule({
   declarations: [
@@ -25,6 +29,8 @@ import { ContactmeComponent } from './components/contactme/contactme.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatToolbarModule,
+    FormsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
